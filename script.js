@@ -74,9 +74,6 @@ function writeYourGenres(personalMovieDB){
 
 function  showMyDB (){
     if (personalMovieDB.privat == false){
-        alert(personalMovieDB.count);
-        alert(personalMovieDB.movies);
-        alert(personalMovieDB.actors);
-        alert(personalMovieDB.genres);
+        console.log (personalMovieDB);
     }
 }
